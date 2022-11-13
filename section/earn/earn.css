@@ -1,0 +1,54 @@
+.earn {
+   margin-top: 100px;
+}
+
+.earn__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.earn__img {
+    border-radius: 36px;
+    box-shadow: 0px 0px 31px rgba(177, 177, 177, 0.2);
+   align-self:end;
+}
+
+.earn__title {
+    text-align: start;
+}
+
+.earn__text {
+    font-weight: 500;
+    font-size: 20px;
+    color: #676767;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.earn__list {
+    list-style: none;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    padding-left: 0px;
+}
+
+.earn__list-item {
+    display: flex;
+    align-items: center;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 28px rgba(27, 17, 8, 0.06);
+    border-radius: 64px 24px 24px 64px;
+    margin-top: 30px;
+}
+
+.earn__list-item:first-child {
+    margin-top: 0px;
+}
+
+.earn__list-text {
+    font-weight: 500;
+    font-size: 22px;
+    color: #062010;
+    margin-left: 24px;
+    padding-right: 50px; /*Последняя строчка в списке не влазит*/
+}

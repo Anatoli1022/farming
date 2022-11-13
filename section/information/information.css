@@ -1,0 +1,51 @@
+.information {
+    margin-top: 145px;
+}
+
+.information__title {
+    text-align: center;
+}
+
+.information__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 42px;
+    column-gap: 40px;
+    list-style: none;
+    padding-left: 0;
+    margin-top: 50px;
+    margin-bottom: 0;
+}
+
+.information__list-item {
+    width: 192px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #FFFFFF;
+    border: 2px solid rgba(42, 169, 21, 0.2);
+    box-shadow: 0px 4px 28px rgba(27, 17, 8, 0.06);
+    border-radius: 24px;
+}
+
+.information__list-icon {
+    margin-top: 30px;
+}
+
+.information__list-text {
+    text-align: center;
+    color: #676767;
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.information__list-amount {
+    color: #2AA915;
+    font-weight: 700;
+    font-size: 22px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}

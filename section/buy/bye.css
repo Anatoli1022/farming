@@ -1,0 +1,29 @@
+.buy {
+    margin-top: 110px;
+    padding-top: 80px;
+    padding-bottom: 100px;
+    background: linear-gradient(0deg, rgba(42, 169, 21, 0.37) 0%, rgba(42, 169, 21, 0) 100%);
+}
+
+.buy__title {
+    text-align: center;
+}
+
+.buy__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(94.35deg, rgba(255, 255, 255, 0.57) 0%, rgba(255, 255, 255, 0.71) 0.01%, rgba(255, 255, 255, 0.06) 100%);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    box-shadow: 0px 4px 28px rgba(27, 17, 8, 0.06);
+    border-radius: 80px;
+    max-width: 310px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 14px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-right:20px;
+}
+

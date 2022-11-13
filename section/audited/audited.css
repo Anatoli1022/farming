@@ -1,0 +1,16 @@
+.audited{
+    margin-top: 100px;
+}
+
+.audited__title{
+    text-align: center;
+}
+
+.audited__wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 30px;
+    column-gap: 40px;
+    margin-top: 50px;
+}

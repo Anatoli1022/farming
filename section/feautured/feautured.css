@@ -1,0 +1,20 @@
+.feautured{
+    margin-top: 150px;
+}
+
+.feautured__title{
+    text-align: center;
+}
+
+.feautured__wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 30px;
+    column-gap: 30px;
+    margin-top: 80px;
+}
+
+.feautured__wrapper img{
+    max-width: 355px;
+}

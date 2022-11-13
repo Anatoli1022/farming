@@ -1,0 +1,19 @@
+.title {
+    color: #062010;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 700;
+}
+
+.title_xl{
+    font-size: 72px;
+}
+
+.title_la{
+    font-size: 48px;
+}
+
+
+.title span{
+color: #2AA915;
+}
