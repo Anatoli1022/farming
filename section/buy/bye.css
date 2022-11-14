@@ -27,3 +27,7 @@
     padding-right:20px;
 }
 
+.buy__button{
+    display: flex;
+    align-items: center;
+}

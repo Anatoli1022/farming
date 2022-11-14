@@ -1,5 +1,4 @@
 /*Подумать над переработкой и плавностью (для меня)*/
-
 .button{
 display: inline-block;
 text-decoration: none;
@@ -60,12 +59,7 @@ padding-right: 27px;
     background: rgba(42, 169, 21, 0.18);
 }
 
-/* Придумать ли ховер для кнопки?
-.button_light-green:hover{
-    
-}
 
-*/
 
 @media only screen and (max-width : 479px) {
     

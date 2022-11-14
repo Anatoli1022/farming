@@ -26,16 +26,17 @@
     border-radius: 24px;
     padding-bottom: 30px;
 }
-
-.ecosystem__list-icon {
-    margin-top: 24px;
+/*
+.ecosystem__list-icon{
 }
+*/
+
 
 .ecosystem__list-title {
     font-weight: 500;
     font-size: 24px;
     color: #2F2F2F;
-    margin-top: 22px;
+    margin-top: 0px;
     margin-bottom: 0;
 }
 
