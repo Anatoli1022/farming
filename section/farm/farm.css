@@ -31,15 +31,19 @@
     padding-right: 24px;
 }
 
+.farm__item-wrapper {
+    display: flex;
+}
+
 .farm__list .farm__item:first-child {
     margin-top: 0;
 }
 
 .farm__icon-first {
-   z-index: 1;
+    z-index: 1;
 }
 
-.farm__icon-second{
+.farm__icon-second {
     margin-left: -25px;
     max-width: 60px;
 }
@@ -65,6 +69,9 @@
     margin-bottom: 0px;
 }
 
+.farm__information-wrapper {
+    display: flex;
+}
 
 .farm__text-information {
     padding-left: 30px;
@@ -88,6 +95,72 @@
     margin-top: 14px;
 }
 
-.farm__item-button{
+.farm__item-button {
     margin-left: auto;
+}
+
+@media only screen and (max-width : 479px) {
+
+    /*Доделать*/
+    .farm {
+        margin-top: 100px;
+    }
+
+    .farm__list {
+        margin-top: 50px;
+        max-width: 282px;
+    }
+
+    .farm__item {
+        flex-direction: column;
+        border-radius: 16px;
+        margin-top: 30px;
+        padding-top: 24px;
+        padding-left: 24px;
+        padding-right: 24px;
+        padding-bottom: 22px;
+    }
+
+    .farm__item-wrapper {
+        display: flex;
+    }
+
+    .farm__icon-first {
+        max-width: 30px;
+        max-height: 30px;
+    }
+
+    .farm__icon-second {
+        max-width: 30px;
+        max-height: 30px;
+        margin-left: -12px;
+    }
+
+    .farm__container {
+        margin-left: 16px;
+    }
+
+    .farm__container-title {
+        font-size: 18px;
+    }
+
+    .farm__container-text {
+        margin-top: 4px;
+        font-size: 14px;
+    }
+
+    .farm__information-wrapper {
+        margin-top: 20px;
+    }
+
+    .farm__text-information {
+        border-left: none;
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .farm__text-procent {
+        font-size: 18px;
+        margin-top: 4px;
+    }
 }

@@ -17,3 +17,17 @@
 .title span{
 color: #2AA915;
 }
+
+
+
+@media only screen and (max-width : 479px) {
+    
+    .title_xl{
+        font-size: 40px;
+    }
+
+    .title_la{
+        font-size: 24px;
+    }
+    
+}

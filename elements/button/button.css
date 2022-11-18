@@ -11,13 +11,14 @@ padding-top: 17px;
 padding-bottom: 17px;
 padding-left: 27px;
 padding-right: 27px;
+font-size: 18px;
 }
 
 .button_sm{
     font-weight: 600;
     font-size: 16px;
-    padding-top: 10px;
-    padding-bottom:10px ;
+    padding-top: 13px;
+    padding-bottom:13px ;
     padding-left:14px ;
     padding-right: 14px;
 }
@@ -63,4 +64,22 @@ padding-right: 27px;
 
 @media only screen and (max-width : 479px) {
     
+    .button_lg{
+        font-weight: 500;
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-weight: 500;
+        font-size: 16px;
+    }
+
+    .button_sm{
+        font-weight: 500;
+        padding-top: 10px;
+        padding-bottom:10px ;
+        padding-left:10px ;
+        padding-right: 10px;
+    }
+
 }

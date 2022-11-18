@@ -20,7 +20,7 @@
 }
 
 .token-earn__image{
-    position:absolute;/*Картинка уезжает(*/
+    position:absolute;
     right: -10px;
     top: 0;
 }
@@ -52,3 +52,41 @@
 }
 
 
+@media only screen and (max-width : 479px) {
+
+    .token-earn {
+        margin-top: 100px;
+    }
+
+    .container__token-earn {
+        grid-template-columns: 1fr;
+        row-gap: 32px;
+    }
+
+    .token-earn__content {
+        padding-top: 100px;
+        padding-left: 16px;
+        padding-right: 36px;
+        padding-bottom: 24px;
+    }
+
+    .token-earn__image{
+       max-width: 165px;
+    }
+
+    .token-earn__content-title {
+        font-size: 24px;
+    }
+
+    .token-earn__content-text {
+        max-width: 276px;
+        font-size: 14px;
+        margin-top: 8px;
+        line-height: 1.7;
+    }
+
+    .token-earn__content-link{
+        margin-top: 24px;
+    }
+  
+}

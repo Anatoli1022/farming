@@ -84,3 +84,7 @@
 .upcoming__item-button{
     margin-left: auto;
 }
+
+@media only screen and (max-width : 479px) {
+  
+}

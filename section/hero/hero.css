@@ -23,6 +23,7 @@
     cursor: pointer;
     text-decoration: none;
     font-weight: 600;
+    font-size: 18px;
     color: #EF3581;
     background: #FBE4EE;
     border: 2px solid #EE3581;
@@ -51,12 +52,16 @@
     z-index: -1;
 }
 
+.hero__background-mobile{
+    display: none;
+}
+
 
 @media only screen and (max-width : 479px) {
 
     /*почему залезает на другую секцию?*/
  .hero{
-   padding-top: 30px;
+   margin-top: 30px;
  }
 
  .hero__title{
@@ -71,10 +76,28 @@
  }
 
  .hero__button {
-    margin-top: 34px;
+    margin-top: 25px;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 15px;
     padding-right: 15px;
+    font-size: 16px;
 }
+
+.hero__background{
+    display: none;
+}
+
+.hero__background-mobile{
+  display: inline;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  object-fit: cover;
+  object-position: top left;
+  z-index: -1;
+}
+
 }

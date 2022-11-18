@@ -1,10 +1,11 @@
 .ecosystem {
-   margin-top: 200px;
+    margin-top: 200px;
 }
 
-.ecosystem__title{
+.ecosystem__title {
     text-align: center;
 }
+
 .ecosystem__list {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -26,6 +27,7 @@
     border-radius: 24px;
     padding-bottom: 30px;
 }
+
 /*
 .ecosystem__list-icon{
 }
@@ -53,10 +55,40 @@
     color: #2AA915;
 }
 
-.wrapper__buttom {
-    text-align: center;
-}
-
 .ecosystem__button {
     margin-top: 80px;
+}
+
+@media only screen and (max-width : 479px) {
+
+    .ecosystem {
+        margin-top: 150px;
+    }
+
+    .ecosystem__list {
+        grid-template-columns: 280px;
+        margin-top: 50px;
+        row-gap: 30px;
+        justify-content: center;
+    }
+
+    .ecosystem__list-item {
+        padding-bottom: 20px;
+    }
+
+    .ecosystem__list-icon {
+        max-width: 120px;
+    }
+
+    .ecosystem__list-title {
+        font-size: 18px;
+    }
+
+    .ecosystem__list-text {
+        font-size: 13px;
+    }
+
+    .ecosystem__button {
+        margin-top: 70px;
+    }
 }

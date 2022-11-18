@@ -48,8 +48,7 @@
             <a href="" class="button button_green page-header__button button_lg button__radius_sm">Start Earning</a>
 
             <!--MOBILE MENU-->
-            <!--
-        <div class="wrapper__menu-mobile">
+            <div class="wrapper__menu-mobile">
                 <div class="menu-btn">
                     <span></span>
                     <span></span>
@@ -62,13 +61,11 @@
                                     class="menu__list__item-link">Tokenomics</a></li>
                             <li class="menu__list-item"><a href="#" class="menu__list__item-link">Statistics</a></li>
                             <li class="menu__list-item"><a href="#" class="menu__list__item-link">Blog</a></li>
-                            <li class="menu__list-item"><a href="" class="button__menu">Start Earning</a></li>
                         </ul>
                     </nav>
+                    <a href="" class="button__menu button button__radius_sm button_lg">Start Earning</a>
                 </div>
-            </div>-->
-
-
+            </div>
             <!--MOBILE MENU-->
         </div>
     </header>
@@ -88,6 +85,8 @@
         </div>
         <img src="./section/hero/images/background.jpg" srcset="./section/hero/images/background-2x.jpg 2x"
             class="hero__background" loading="eager" aria-hidden="true" alt="">
+        <img src="./section/hero/images/background-mobile.jpg" srcset="./section/hero/images/background-mobile-2x.jpg"
+            class="hero__background-mobile" alt="" aria-hidden="true" loading="eager">
     </section>
 
     <div class="video">
@@ -97,7 +96,6 @@
                     class="video__image" loading="lazy" alt="" aria-hidden="true">
                 <button class="video__button"><img src="./section/video/images/play.svg" alt="" aria-hidden="true"
                         class=""></button>
-
             </div>
         </div>
     </div>
@@ -110,19 +108,23 @@
                 <p class="earn__text">Let Harvest do the hard work</p>
                 <ul class="earn__list">
                     <li class="earn__list-item">
-                        <img src="./section/earn/images/auto-compounding.svg" loading="lazy" alt="" aria-hidden="true">
+                        <img src="./section/earn/images/auto-compounding.svg" class="earn__list-icon" loading="lazy"
+                            alt="" aria-hidden="true">
                         <span class="earn__list-text">Auto-compounding</span>
                     </li>
                     <li class="earn__list-item">
-                        <img src="./section/earn/images/auto-rewards.svg" loading="lazy" alt="" aria-hidden="true">
+                        <img src="./section/earn/images/auto-rewards.svg" class="earn__list-icon" loading="lazy" alt=""
+                            aria-hidden="true">
                         <span class="earn__list-text">Auto rewards</span>
                     </li>
                     <li class="earn__list-item">
-                        <img src="./section/earn/images/farm-rewards.svg" loading="lazy" alt="" aria-hidden="true">
+                        <img src="./section/earn/images/farm-rewards.svg" class="earn__list-icon" loading="lazy" alt=""
+                            aria-hidden="true">
                         <span class="earn__list-text">Farm rewards</span>
                     </li>
                     <li class="earn__list-item">
-                        <img src="./section/earn/images/unique-token.svg" loading="lazy" alt="" aria-hidden="true">
+                        <img src="./section/earn/images/unique-token.svg" class="earn__list-icon" loading="lazy" alt=""
+                            aria-hidden="true">
                         <span class="earn__list-text">Unique DAO token rewards</span>
                     </li>
                 </ul>
@@ -173,9 +175,7 @@
                     <p class="ecosystem__list-text">Try your luck in lottery</p>
                 </li>
             </ul>
-            <div class="wrapper__buttom">
-                <a href="" class="ecosystem__button  button button_lg button__radius_sm button_green">Start Earning</a>
-            </div>
+            <a href="" class="ecosystem__button  button button_lg button__radius_sm button_green">Start Earning</a>
         </div>
     </section>
 
@@ -240,51 +240,70 @@
             <h2 class="farm__title title title_la">Farm</h2>
             <ul class="farm__list">
                 <li class="farm__item">
-                    <img src="./section/farm/images/earn-farm-1.svg" class="farm__icon-first" alt="" aria-hidden="true">
-                    <img src="./section/farm/images/earn-farm-2.png"
-                        srcset="./section/farm/images/earn-farm-2-2x.png 2x" class="farm__icon-second" alt=""
-                        aria-hidden="true">
-                    <div class="farm__container">
-                        <h3 class="farm__container-title">Earn FARM - BNB</h3>
-                        <p class="farm__container-text">Stake FARM - Earn FARM</p>
+                    <div class="farm__item-wrapper">
+                        <img src="./section/farm/images/earn-farm-1.svg" class="farm__icon-first" alt=""
+                            aria-hidden="true">
+                        <img src="./section/farm/images/earn-farm-2.png"
+                            srcset="./section/farm/images/earn-farm-2-2x.png 2x" class="farm__icon-second" alt=""
+                            aria-hidden="true">
+                        <div class="farm__container">
+                            <h3 class="farm__container-title">Earn FARM - BNB</h3>
+                            <p class="farm__container-text">Stake FARM - Earn FARM</p>
+                        </div>
                     </div>
-                    <div class="farm__text-information">
-                        <p class="farm__text-apr">apr</p>
-                        <span class="farm__text-procent">78.2 %</span>
+
+                    <div class="farm__information-wrapper">
+                        <div class="farm__text-information">
+                            <p class="farm__text-apr">apr</p>
+                            <span class="farm__text-procent">78.2 %</span>
+                        </div>
+                        <a href="" class="farm__item-button button button_sm button_light-green button__radius_sm">Start
+                            Earning</a>
                     </div>
-                    <a href="" class="farm__item-button button button_sm button_light-green button__radius_sm">Start
-                        Earning</a>
+                </li>
+
+                <li class="farm__item">
+                    <div class="farm__item-wrapper">
+                        <img src="./section/farm/images/earn-farm-1.svg" class="farm__icon-first" alt=""
+                            aria-hidden="true">
+                        <img src="./section/farm/images/earn-farm-3.svg" class="farm__icon-second" alt=""
+                            aria-hidden="true">
+                        <div class="farm__container">
+                            <h3 class="farm__container-title">Earn FARM - BNB</h3>
+                            <p class="farm__container-text">Stake FARM - Earn FARM</p>
+                        </div>
+
+                    </div>
+                    <div class="farm__information-wrapper">
+                        <div class="farm__text-information">
+                            <p class="farm__text-apr">apr</p>
+                            <span class="farm__text-procent">78.2 %</span>
+                        </div>
+                        <a href="" class="farm__item-button button button_sm button_light-green button__radius_sm">Start
+                            Earning</a>
+                    </div>
                 </li>
                 <li class="farm__item">
-                    <img src="./section/farm/images/earn-farm-1.svg" class="farm__icon-first" alt="" aria-hidden="true">
-                    <img src="./section/farm/images/earn-farm-3.svg" class="farm__icon-second" alt=""
-                        aria-hidden="true">
-                    <div class="farm__container">
-                        <h3 class="farm__container-title">Earn FARM - BNB</h3>
-                        <p class="farm__container-text">Stake FARM - Earn FARM</p>
+                    <div class="farm__item-wrapper">
+                        <img src="./section/farm/images/earn-farm-3.svg" class="farm__icon-first" alt=""
+                            aria-hidden="true">
+                        <img src="./section/farm/images/earn-farm-2.png"
+                            srcset="./section/farm/images/earn-farm-2-2x.png 2x" class="farm__icon-second" alt=""
+                            aria-hidden="true">
+                        <div class="farm__container">
+                            <h3 class="farm__container-title">Auto-compound</h3>
+                            <p class="farm__container-text">Stake BSW - Earn BSW</p>
+                        </div>
                     </div>
-                    <div class="farm__text-information">
-                        <p class="farm__text-apr">apr</p>
-                        <span class="farm__text-procent">78.2 %</span>
+
+                        <div class="farm__information-wrapper">
+                        <div class="farm__text-information">
+                            <p class="farm__text-apr">apr</p>
+                            <span class="farm__text-procent">28.5 %</span>
+                        </div>
+                        <a href="" class="farm__item-button button button_sm button_light-green button__radius_sm">Start
+                            Earning</a>
                     </div>
-                    <a href="" class="farm__item-button button button_sm button_light-green button__radius_sm">Start
-                        Earning</a>
-                </li>
-                <li class="farm__item">
-                    <img src="./section/farm/images/earn-farm-3.svg" class="farm__icon-first" alt="" aria-hidden="true">
-                    <img src="./section/farm/images/earn-farm-2.png"
-                        srcset="./section/farm/images/earn-farm-2-2x.png 2x" class="farm__icon-second" alt=""
-                        aria-hidden="true">
-                    <div class="farm__container">
-                        <h3 class="farm__container-title">Auto-compound</h3>
-                        <p class="farm__container-text">Stake BSW - Earn BSW</p>
-                    </div>
-                    <div class="farm__text-information">
-                        <p class="farm__text-apr">apr</p>
-                        <span class="farm__text-procent">28.5 %</span>
-                    </div>
-                    <a href="" class="farm__item-button button button_sm button_light-green button__radius_sm">Start
-                        Earning</a>
                 </li>
             </ul>
         </div>
@@ -303,12 +322,16 @@
                         <h3 class="upcoming__container-title">Earn FARM - BNB</h3>
                         <p class="upcoming__container-text">Stake FARM - Earn FARM</p>
                     </div>
-                    <div class="upcoming__text-information">
-                        <p class="upcoming__text-apr">apr</p>
-                        <span class="upcoming__text-procent">78.2 %</span>
+
+                    <div class="farm__information-wrapper">
+                        <div class="upcoming__text-information">
+                            <p class="upcoming__text-apr">apr</p>
+                            <span class="upcoming__text-procent">78.2 %</span>
+                        </div>
+                        <a href=""
+                            class="upcoming__item-button button button_sm button_light-green button__radius_sm">Start
+                            Earning</a>
                     </div>
-                    <a href="" class="upcoming__item-button button button_sm button_light-green button__radius_sm">Start
-                        Earning</a>
                 </li>
                 <li class="upcoming__item">
                     <img src="./section/upcoming-pools/images/upcoming-pools-big1.svg" alt="" aria-hidden="true">
@@ -378,10 +401,10 @@
         <div class="container">
             <h2 class="audited__title title title_la">Audited By</h2>
             <div class="audited__wrapper">
-                <img src="./section/audited/images/haechi-audit.svg" alt="HaechiAudit">
-                <img src="./section/audited/images/peck-shield.svg" alt="PeckShield">
-                <img src="./section/audited/images/certik.svg" alt="CERTIK">
-                <img src="./section/audited/images/least-authority.svg" alt="LeastAuthority">
+                <img src="./section/audited/images/haechi-audit.svg" class="audited__image" alt="HaechiAudit">
+                <img src="./section/audited/images/peck-shield.svg" class="audited__image" alt="PeckShield">
+                <img src="./section/audited/images/certik.svg" class="audited__image" alt="CERTIK">
+                <img src="./section/audited/images/least-authority.svg" class="audited__image" alt="LeastAuthority">
             </div>
         </div>
     </section>
@@ -418,7 +441,7 @@
             <div class="buy__wrapper">
                 <img src="./section/buy/images/icon-auto-compunding.svg" alt="" aria-hidden="true">
                 <a href="" class="buy__button button button_sm button__radius_xl button_green"><span>Buy $FARM</span>
-                    <img src="./section/buy/images/arrow.svg"  alt="" aria-hidden="true"></a>
+                    <img src="./section/buy/images/arrow.svg" alt="" aria-hidden="true"></a>
                 <!--Обрати внимание на цвет стрелки при наведении , это изменить?-->
             </div>
         </div>
@@ -430,23 +453,23 @@
             <ul class="page-footer__list">
                 <li class="page-footer__list-item">
                     <a href="" class="page-footer__item-link button button_sm button__radius_xl button__light">
-                        <img src="./section/page-footer/images/youtube.svg" alt="" aria-hidden="true"><span
-                            class="page-footer__item-text">Youtube</span></a>
+                        <img src="./section/page-footer/images/youtube.svg" class="page-footer__list-icon" alt=""
+                            aria-hidden="true"><span class="page-footer__item-text">Youtube</span></a>
                 </li>
                 <li class="page-footer__list-item">
                     <a href="" class="page-footer__item-link button button_sm  button__radius_xl button__light">
-                        <img src="./section/page-footer/images/facebook.svg" alt="" aria-hidden="true"><span
-                            class="page-footer__item-text">Facebook</span></a>
+                        <img src="./section/page-footer/images/facebook.svg" class="page-footer__list-icon" alt=""
+                            aria-hidden="true"><span class="page-footer__item-text">Facebook</span></a>
                 </li>
                 <li class="page-footer__list-item">
                     <a href="" class="page-footer__item-link button button_sm button__radius_xl button__light"><img
-                            src="./section/page-footer/images/telegram.svg" alt="" aria-hidden="true"><span
-                            class="page-footer__item-text">Telegram</span></a>
+                            src="./section/page-footer/images/telegram.svg" class="page-footer__list-icon" alt=""
+                            aria-hidden="true"><span class="page-footer__item-text">Telegram</span></a>
                 </li>
                 <li class="page-footer__list-item">
                     <a href="" class="page-footer__item-link button button_sm button__radius_xl button__light">
-                        <img src="./section/page-footer/images/twitter.svg" alt="" aria-hidden="true"><span
-                            class="page-footer__item-text">Twitter</span></a>
+                        <img src="./section/page-footer/images/twitter.svg" class="page-footer__list-icon" alt=""
+                            aria-hidden="true"><span class="page-footer__item-text">Twitter</span></a>
                 </li>
             </ul>
             <p class="page-footer__copyrigh">Copyright © 2022 FarmGrow. All rights reserved. </p>

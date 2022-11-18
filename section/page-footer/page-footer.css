@@ -54,3 +54,42 @@
     margin-top: 50px;
     margin-bottom: 0;
 }
+
+@media only screen and (max-width : 479px) {
+    .page-footer {
+        padding-top: 40px;
+    }
+
+    .page-footer__title {
+        font-size: 24px;
+    }
+
+    .page-footer__list {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        row-gap: 16px;
+        column-gap: 16px;
+        margin-top: 40px;
+    }
+
+    .page-footer__list-item {
+        margin-left: 0;
+    }
+
+    .page-footer__item-link {
+       min-width: 144px;
+        font-size: 16px;
+    }
+    .page-footer__list-icon{
+        max-width: 28px;
+    }
+    .page-footer__item-text {
+        margin-left: 8px;
+    }
+
+    .page-footer__copyrigh {
+        font-size: 12px;
+    }
+
+
+}
