@@ -1,13 +1,9 @@
 .hero {
-   margin-top: 190px;
+   padding-top: 275px;
 }
 
 .hero__title {
     max-width: 550px;
-}
-
-.hero__title span {
-    color: #2AA915;
 }
 
 .hero__text {
@@ -61,7 +57,7 @@
 
     /*почему залезает на другую секцию?*/
  .hero{
-   margin-top: 30px;
+   padding-top: 100px;
  }
 
  .hero__title{

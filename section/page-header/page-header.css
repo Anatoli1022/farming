@@ -1,5 +1,5 @@
 .page-header {
-    position: relative;
+    position: absolute;
     top: 0;
     left: 0;
     right: 0;
@@ -53,7 +53,11 @@
 }
 
 
-.wrapper__menu-mobile {
+.page-header__menu-btn{
+    display: none;
+}
+
+.menu{
     display: none;
 }
 
@@ -79,20 +83,21 @@
     /*MOBILE MENU */
 
     /*Обёртка*/
-    .wrapper__menu-mobile {
-        display: block;
-    }
+  
 
     /* Гамбургер иконка доработать*/
-    .menu-btn {
+    .page-header__menu-btn {
+        display: block;
         width: 24px;
         height: 18px;
         position: relative;
         z-index: 2;
         overflow: hidden;
+        background: none;
+        border: none;
     }
 
-    .menu-btn span {
+    .menu-btn__button {
         width: 24px;
         height: 3px;
         position: absolute;
@@ -103,25 +108,25 @@
         transition: all 0.5s;
     }
 
-    .menu-btn span:nth-of-type(2) {
+    .page-header__menu-btn .menu-btn__button:nth-of-type(2) {
         top: calc(50% - 5px);
     }
 
-    .menu-btn span:nth-of-type(3) {
+    .page-header__menu-btn .menu-btn__button:nth-of-type(3) {
         top: calc(50% + 5px);
     }
 
     /* Меняем гамбургер иконку, когда меню открыто */
-    .menu-btn.active span:nth-of-type(1) {
+    .page-header__menu-btn.active .menu-btn__button:nth-of-type(1) {
         display: none;
     }
 
-    .menu-btn.active span:nth-of-type(2) {
+    .page-header__menu-btn.active .menu-btn__button:nth-of-type(2) {
         top: 50%;
         transform: translate(-50%, 0%) rotate(45deg);
     }
 
-    .menu-btn.active span:nth-of-type(3) {
+    .page-header__menu-btn.active .menu-btn__button:nth-of-type(3) {
         top: 50%;
         transform: translate(-50%, 0%) rotate(-45deg);
     }

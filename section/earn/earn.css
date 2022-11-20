@@ -1,5 +1,5 @@
 .earn {
-    margin-top: 100px;
+    margin-top: 250px;
 }
 
 .earn__container {
@@ -12,9 +12,9 @@
     box-shadow: 0px 0px 31px rgba(177, 177, 177, 0.2);
     align-self: end;
 }
-
-.earn__title {
-    text-align: start;
+.earn__content{
+    flex-grow: 1;
+    margin-left: 96px;
 }
 
 .earn__text {
@@ -35,7 +35,6 @@
 .earn__list-item {
     display: flex;
     align-items: center;
-    background: #FFFFFF;
     box-shadow: 0px 4px 28px rgba(27, 17, 8, 0.06);
     border-radius: 64px 24px 24px 64px;
     margin-top: 30px;
@@ -50,8 +49,6 @@
     font-size: 22px;
     color: #062010;
     margin-left: 24px;
-    padding-right: 50px;
-    /*Последняя строчка в списке не влазит*/
 }
 
 @media only screen and (max-width : 479px) {

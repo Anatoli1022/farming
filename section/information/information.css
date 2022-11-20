@@ -19,14 +19,15 @@
 }
 
 .information__list-item {
-    width: 192px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+   text-align: center;
+    width: 100%;
+    flex-grow: 1;
+    max-width: 192px;
     background: #FFFFFF;
     border: 2px solid rgba(42, 169, 21, 0.2);
     box-shadow: 0px 4px 28px rgba(27, 17, 8, 0.06);
     border-radius: 24px;
+    padding-bottom: 20px;
 }
 
 .information__list-icon {
@@ -47,7 +48,7 @@
     font-weight: 700;
     font-size: 22px;
     margin-top: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 0;
 }
 
 @media only screen and (max-width : 479px) {
