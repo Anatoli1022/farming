@@ -29,6 +29,10 @@
   
 }
 
+.upcoming__container-wrapper {
+    display: flex;
+}
+
 .upcoming__list .upcoming__item:first-child {
     margin-top: 0;
 }
@@ -59,6 +63,10 @@
     margin-bottom: 0px;
 }
 
+.upcoming__information-wrapper {
+    display: flex;
+}
+
 
 .upcoming__text-information {
     padding-left: 30px;
@@ -87,4 +95,65 @@
 
 @media only screen and (max-width : 479px) {
   
+    .upcoming {
+        margin-top: 100px;
+    }
+
+    .upcoming__list {
+        margin-top: 50px;
+        max-width: 282px;
+    }
+
+    .upcoming__item {
+        flex-direction: column;
+        border-radius: 16px;
+        margin-top: 30px;
+        padding-top: 24px;
+        padding-left: 24px;
+        padding-right: 24px;
+        padding-bottom: 22px;
+    }
+
+    .upcoming__list-icon {
+        max-width: 44px;
+        max-height: 44px;
+    }
+
+    .upcoming__icon-sm {
+        max-width: 24px;
+        max-height: 24px;
+        /*margin-left: 10px; Картинку выкидывает */
+    }
+
+    .upcoming__container {
+        margin-left: 16px;
+    }
+
+    .upcoming__container-title {
+        font-size: 18px;
+    }
+
+    .upcoming__container-text {
+        margin-top: 4px;
+        font-size: 14px;
+    }
+
+    .upcoming__information-wrapper {
+        margin-top: 20px;
+    }
+
+    .upcoming__text-information {
+        border-left: none;
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .upcoming__text-procent {
+        font-size: 18px;
+        margin-top: 4px;
+    }
+
+    .upcoming__item-button {
+        margin-left: 26px;
+      }
 }
