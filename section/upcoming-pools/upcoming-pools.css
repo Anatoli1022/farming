@@ -100,6 +100,7 @@
         margin-top: 100px;
     }
 
+   
     .upcoming__list {
         margin-top: 50px;
         max-width: 290px;
@@ -123,7 +124,8 @@
     .upcoming__icon-sm {
         max-width: 24px;
         max-height: 24px;
-        /*margin-left: 10px; Картинку выкидывает */
+        z-index: -1;
+        /*Cкрыл ужасную картинку */
     }
 
     .upcoming__container {

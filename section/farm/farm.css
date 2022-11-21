@@ -31,6 +31,7 @@
 
 .farm__container-wrapper {
     display: flex;
+
 }
 
 .farm__list .farm__item:first-child {
@@ -50,7 +51,7 @@
 
 .farm__container {
     margin-left: 12px;
-    min-width: 205px;
+    min-width: 190px;
 }
 
 .farm__container-title {
@@ -119,11 +120,13 @@
     }
 
     .farm__icon-first {
+        align-self: center;
         max-width: 30px;
         max-height: 30px;
     }
 
     .farm__icon-second {
+        align-self: center;
         max-width: 30px;
         max-height: 30px;
         margin-left: -12px;
@@ -151,7 +154,7 @@
         max-width: 282px;
     }
 
-   
+
     .farm__text-procent {
         font-size: 18px;
         margin-top: 4px;
@@ -159,5 +162,5 @@
 
     .farm__item-button {
         margin-left: 26px;
-      }
+    }
 }

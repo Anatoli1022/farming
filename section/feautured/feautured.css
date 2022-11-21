@@ -27,11 +27,10 @@
 
     .feautured__images {
         margin-top: 50px;
-        flex-wrap: nowrap;
         column-gap: 20px;
     }
 
     .feautured__images img {
-        max-width: 115px;
+        max-width: 150px;
     }
 }
