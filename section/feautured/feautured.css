@@ -6,7 +6,7 @@
     text-align: center;
 }
 
-.feautured__wrapper {
+.feautured__images {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -15,7 +15,7 @@
     margin-top: 80px;
 }
 
-.feautured__wrapper img {
+.feautured__images img {
     max-width: 355px;
 }
 
@@ -25,13 +25,13 @@
         margin-top: 100px;
     }
 
-    .feautured__wrapper {
+    .feautured__images {
         margin-top: 50px;
         flex-wrap: nowrap;
         column-gap: 20px;
     }
 
-    .feautured__wrapper img {
+    .feautured__images img {
         max-width: 94px;
     }
 }
