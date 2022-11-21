@@ -17,15 +17,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    list-style: none;
     padding-left: 0;
     margin-top: 60px;
     margin-bottom: 0px;
 }
 
 .page-footer__list-item {
-    display: flex;
-    align-items: center;
     margin-left: 15px;
+    flex-grow: 1;
+    max-width: 180px;
+    width: 100%;
 }
 
 .page-footer__list .page-footer__list-item:first-child {
@@ -46,7 +48,7 @@
     margin-left: 10px;
 }
 
-.page-footer__copyrigh {
+.page-footer__copyright {
     text-align: center;
     font-weight: 600;
     font-size: 18px;
@@ -55,7 +57,7 @@
     margin-bottom: 0;
 }
 
-@media only screen and (max-width : 479px) {
+@media only screen and (max-width : 1023px) {
     .page-footer {
         padding-top: 40px;
     }
@@ -74,6 +76,7 @@
 
     .page-footer__list-item {
         margin-left: 0;
+        max-width: 140px;
     }
 
     .page-footer__item-link {

@@ -20,7 +20,7 @@ color: #2AA915;
 
 
 
-@media only screen and (max-width : 479px) {
+@media only screen and (max-width : 1023px) {
     
     .title_xl{
         font-size: 40px;

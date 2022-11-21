@@ -51,7 +51,7 @@
     margin-left: 24px;
 }
 
-@media only screen and (max-width : 479px) {
+@media only screen and (max-width : 1023px) {
 
     .earn {
         margin-top: 450px;
@@ -59,12 +59,19 @@
 
     .earn__container {
         flex-direction: column;
+       
     }
 
     .earn__img {
         max-width: 310px;
         order: 1;
         margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .earn__content{
+        margin-left: 0px;
     }
 
     .earn__text {

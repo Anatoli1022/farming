@@ -45,6 +45,7 @@ font-size: 18px;
 .button__light:hover{
     color: #373737;
     background-color: #F8F8F8;
+    transition: background 0.2s,  0.2s;
 }
 
 .button_green:hover {
@@ -62,7 +63,7 @@ font-size: 18px;
 
 
 
-@media only screen and (max-width : 479px) {
+@media only screen and (max-width : 1023px) {
     
     .button_lg{
         font-weight: 500;

@@ -19,7 +19,7 @@
     max-width: 355px;
 }
 
-@media only screen and (max-width : 479px) {
+@media only screen and (max-width : 1023px) {
 
     .feautured {
         margin-top: 100px;
@@ -32,6 +32,6 @@
     }
 
     .feautured__images img {
-        max-width: 94px;
+        max-width: 115px;
     }
 }

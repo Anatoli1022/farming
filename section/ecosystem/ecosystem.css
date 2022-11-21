@@ -4,7 +4,6 @@
 }
 
 
-
 .ecosystem__list {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -51,21 +50,24 @@
     margin-top: 80px;
 }
 
-@media only screen and (max-width : 479px) {
+@media only screen and (max-width : 1023px) {
 
     .ecosystem {
         margin-top: 150px;
     }
 
     .ecosystem__list {
-        grid-template-columns: 280px;
+        display: block;
         margin-top: 50px;
-        row-gap: 30px;
-        justify-content: center;
     }
 
     .ecosystem__list-item {
+        margin-top: 30px;
         padding-bottom: 20px;
+    }
+
+    .ecosystem__list .ecosystem__list-item:first-child{
+        margin-top: 0;
     }
 
     .ecosystem__list-image {
