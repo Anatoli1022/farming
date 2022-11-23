@@ -30,6 +30,7 @@
 
     .audited__images img {
         max-width: 147px;
+        justify-self: center;
     }
 
 }

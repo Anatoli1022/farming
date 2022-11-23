@@ -103,7 +103,7 @@
    
     .upcoming__list {
         margin-top: 50px;
-        max-width: 290px;
+        
     }
 
     .upcoming__item {
@@ -114,6 +114,13 @@
         padding-left: 24px;
         padding-right: 24px;
         padding-bottom: 22px;
+    }
+
+    .upcoming__container-wrapper {
+      max-width: 300px;
+      justify-content: space-between;
+      flex-grow: 1;
+      width: 100%;
     }
 
     .upcoming__list-icon {
@@ -129,7 +136,7 @@
     }
 
     .upcoming__container {
-        margin-left: 16px;
+        margin-left: 0;
     }
 
     .upcoming__container-title {
@@ -147,7 +154,7 @@
         padding-left: 0;
         margin-left: 0;
         width: 100%;
-        max-width: 282px;
+        max-width: 300px;
     }
 
     .upcoming__text-procent {
