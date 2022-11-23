@@ -117,15 +117,15 @@
     }
 
     .upcoming__list-icon {
-        max-width: 44px;
-        max-height: 44px;
+        max-width: 40px;
+        max-height: 40px;
     }
 
     .upcoming__icon-sm {
-        max-width: 24px;
-        max-height: 24px;
-        z-index: -1;
-        /*Cкрыл ужасную картинку */
+        max-width: 20px;
+        max-height: 20px;
+        margin-left: -15px;
+        margin-top: 10px;
     }
 
     .upcoming__container {
