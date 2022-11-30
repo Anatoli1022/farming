@@ -1,0 +1,36 @@
+.feautured {
+    margin-top: 150px;
+}
+
+.feautured__title {
+    text-align: center;
+}
+
+.feautured__images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 30px;
+    column-gap: 30px;
+    margin-top: 80px;
+}
+
+.feautured__images img {
+    max-width: 355px;
+}
+
+@media only screen and (max-width : 1023px) {
+
+    .feautured {
+        margin-top: 100px;
+    }
+
+    .feautured__images {
+        margin-top: 50px;
+        column-gap: 20px;
+    }
+
+    .feautured__images img {
+        max-width: 150px;
+    }
+}

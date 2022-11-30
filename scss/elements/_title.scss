@@ -1,0 +1,33 @@
+.title {
+    color: #062010;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 700;
+}
+
+.title_xl{
+    font-size: 72px;
+}
+
+.title_lg{
+    font-size: 48px;
+}
+
+
+.title span{
+color: #2AA915;
+}
+
+
+
+@media only screen and (max-width : 1023px) {
+    
+    .title_xl{
+        font-size: 40px;
+    }
+
+    .title_lg{
+        font-size: 24px;
+    }
+    
+}

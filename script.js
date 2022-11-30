@@ -1,4 +1,4 @@
-let menuBtn = document.querySelector('.menu-btn');
+let menuBtn = document.querySelector('.page-header__menu-btn');
 let menu = document.querySelector('.menu');
 
 menuBtn.addEventListener('click', function() {

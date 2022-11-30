@@ -1,0 +1,98 @@
+.hero {
+   padding-top: 275px;
+}
+
+.hero__title {
+    max-width: 550px;
+}
+
+.hero__text {
+    max-width: 430px;
+    font-size: 20px;
+    color: #000000;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.hero__button {
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    color: #EF3581;
+    background: #FBE4EE;
+    border: 2px solid #EE3581;
+    border-radius: 8px;
+    margin-top: 40px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 25px;
+    padding-right: 25px;
+    transition: background 0.2s, color 0.2s;
+}
+
+.hero__button:hover {
+    background: #FFB1D3;
+    color: #FFFFFF;
+}
+
+.hero__background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    object-fit: cover;
+    object-position: top left;
+    z-index: -1;
+}
+
+.hero__background-mobile{
+    display: none;
+}
+
+
+@media only screen and (max-width : 1023px) {
+
+ .hero{
+   padding-top: 100px;
+ }
+
+ .hero__title{
+    font-size: 40px;
+    max-width: 300px;
+ }
+
+ .hero__text{
+    max-width: 245px;
+    font-size: 16px;
+    line-height: 1.6;
+ }
+
+ .hero__button {
+    margin-top: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 16px;
+}
+
+.hero__background{
+    display: none;
+}
+
+.hero__background-mobile{
+  display: inline;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  object-fit: cover;
+  object-position: top left;
+  z-index: -1;
+}
+
+}

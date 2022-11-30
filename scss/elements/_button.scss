@@ -1,0 +1,86 @@
+/*Подумать над переработкой и плавностью (для меня)*/
+.button{
+display: inline-block;
+text-decoration: none;
+cursor: pointer;
+}
+
+.button_lg{
+font-weight: 600;
+padding-top: 17px;
+padding-bottom: 17px;
+padding-left: 27px;
+padding-right: 27px;
+font-size: 18px;
+}
+
+.button_sm{
+    font-weight: 600;
+    font-size: 16px;
+    padding-top: 13px;
+    padding-bottom:13px ;
+    padding-left:14px ;
+    padding-right: 14px;
+}
+
+.button__radius_xl{
+    border-radius: 38px;
+}
+
+.button__radius_sm{
+    border-radius: 8px;
+}
+
+.button_green{
+    color: #FFFFFF;
+    background: linear-gradient(94.04deg, #30C917 1.24%, #279A13 98.27%);
+    border: 2px solid #30C917;
+}
+
+.button__light{
+    color:  #F8F8F8;
+    background-color: #373737;
+}
+
+.button__light:hover{
+    color: #373737;
+    background-color: #F8F8F8;
+    transition: background 0.2s,  0.2s;
+}
+
+.button_green:hover {
+    background: linear-gradient(94.04deg, rgba(48, 201, 23, 0.12) 1.24%, rgba(39, 154, 19, 0.12) 98.27%);
+    border: 2px solid #279A13;
+    color: #2AA915;
+    transition: background 0.2s,  0.2s;
+
+}
+
+.button_light-green{
+   color: #2AA915;
+    background: rgba(42, 169, 21, 0.18);
+}
+
+
+
+@media only screen and (max-width : 1023px) {
+    
+    .button_lg{
+        font-weight: 500;
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-weight: 500;
+        font-size: 16px;
+    }
+
+    .button_sm{
+        font-weight: 500;
+        padding-top: 10px;
+        padding-bottom:10px ;
+        padding-left:10px ;
+        padding-right: 10px;
+    }
+
+}
